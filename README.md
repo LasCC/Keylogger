@@ -1,33 +1,40 @@
-# Keylogger
+<div align="center">
+  <h1>Keylogger using Python 🐍 </h1>
+</div>
+---
+
+## Features 
 
 - Log all the key pressed on the target machine and send them to an email every X min/seconds/hours
+- You can use your dummy Gmail account to log the target machine 
 
-# Tech part
+## Tech part 
 
-This script uses a number of open source projects to work properly:
+- Pynput
+- Threading
+- Smtplib
+- Python3
 
-- pynput
-- threading
-- smtplib
-- python
+## Preview
 
-### Installation
+<div align='center'>
+  <img alt="preview_1" src="https://i.imgur.com/MX1EqC5.png" />
+</div>
 
-```
-pip install pynput
-```
+<div align='center'>
+  <img alt="preview_2" src="https://i.imgur.com/kDe8D7B.png" />
+</div>
 
-### Usage
+## Installation
 
-```
-You can change the time and the username/password on the file : run.py at the line 3
-python3 run.py
-```
+- Clone this GitHub repo
+- Modify the `run.py` and use your own dummy Gmail account
+- Active the "Less secure app" on your Gmail account [here.](https://myaccount.google.com/u/3/lesssecureapps)
 
+## Authors
 
-### Pictures
+👤 Ludovic COULON
 
-[![N|Solid](https://i.imgur.com/T3mcyIZ.png)](https://i.imgur.com/T3mcyIZ.png)
-[![N|Solid](https://i.imgur.com/ESpuFAy.png)](https://i.imgur.com/ESpuFAy.png)
+## Show your support
 
-@LasCC
+You can give a ⭐️ if this project helped you !
