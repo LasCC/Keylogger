@@ -1,7 +1,6 @@
 <div align="center">
   <h1>Keylogger using Python 🐍 </h1>
 </div>
----
 
 ## Features 
 
